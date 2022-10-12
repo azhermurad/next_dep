@@ -3,10 +3,13 @@ import nodemailer from 'nodemailer';
 export default function (req, res) {
     const transporter = nodemailer.createTransport({
         service: 'gmail',
+        port: 465,
+        host: "smtp.gmail.com",
         auth: {
           user: 'sp.project.inc@gmail.com',
           pass: 'vzvp togm tvxt czer'
-        }
+        },
+        secure: true,
     });
     const mailOptions = {
         from: 'sp.project.inc@gmail.com',

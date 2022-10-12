@@ -193,7 +193,7 @@ export default function Register() {
           <div className="hidden lg:flex w-full lg:w-1/2 login_img_section
           justify-around items-center">
             <div className="w-full mx-auto px-20 flex-col items-center space-y-6">
-              <h1 className="text-white font-bold text-4xl font-sans">SP Project INC</h1>
+              <h1 className="text-white font-bold text-4xl font-sans">SP Project INCC</h1>
               <p className="text-white mt-1">Industry Now Curriculum</p>
             </div>
           </div>
