@@ -194,7 +194,7 @@ export default function Register() {
           justify-around items-center">
             <div className="w-full mx-auto px-20 flex-col items-center space-y-6">
               <h1 className="text-white font-bold text-4xl font-sans">SP Project INCC</h1>
-              <p className="text-white mt-1">Industry Now Curriculum</p>
+              <p className="text-white mt-1">Industry NNow Curriculum</p>
             </div>
           </div>
           <div className="flex w-full lg:w-1/2 justify-center items-center bg-white space-y-8">
